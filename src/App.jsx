@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
@@ -25,13 +25,6 @@ function App() {
     ))
 
   }
-
-  useEffect(() => {
-  console.log(notes);
-  }, [notes]);
-
-
-
 
  
   return (
